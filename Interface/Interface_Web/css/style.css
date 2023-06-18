@@ -1,0 +1,401 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Marvel', sans-serif;
+}
+
+html,body{
+	height: 100%;
+}
+
+.container{
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.clear{
+	clear:both;
+}
+
+.pg-principal{
+	width: 100%;
+	height: 100vh;
+	background-image: url('../imagens/estrutura-quimica.png');
+	padding: 200px 0;
+	text-align: center;
+}
+
+.pg-principal h2{
+	color: #00A181;
+	font-size: 80px;
+	text-transform: uppercase;
+}
+
+.pg-principal input[type=text]{
+	width: 100%;
+	height: 60px;
+	margin-top: 50px;
+	text-align: center;
+	border: 2px solid #004651;
+	border-radius: 5px;
+}
+
+
+.pg-principal input[type=password]{
+	width: 100%;
+	height: 60px;
+	margin-top: 40px;
+	text-align: center;
+	border: 2px solid #004651;
+	border-radius: 5px;
+}
+
+
+.pg-principal p{
+	margin-top: 30px;
+	color: #00A181;
+	cursor: pointer;
+}
+
+.pg-principal button{
+	width: 200px;
+	height: 50px;
+	margin-top: 40px;
+	font-size: 25px;
+	border: 2px solid #004651;
+	border-radius: 5px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.pg-principal button a{
+	text-decoration: none;
+	color: #00A181;
+}
+
+/************ FIM DA PG-PRINCIPAL ****************/
+
+
+/************ PAGINA HOME **************/
+
+section.home{
+	width: 100%;
+	height: 100vh;
+}
+
+.sidebar{
+	width: 20%;
+	height: 100vh;
+	float: left;
+	background-color: #ccc;
+}
+
+.img-servidor{
+	width: 180px;
+	height: 180px;
+	background-image: url('../imagens/icone-perfil.png');
+	background-size: 100% 100%;
+	background-position: center;
+	position: relative;
+	left: 78px;
+	top: 30px;
+}
+
+.sidebar h2{
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 40px;
+	font-size: 40px;
+}
+
+.info-servidor{
+	margin-top: 70px;
+	text-align: center;
+}
+
+.info-servidor p{
+	padding-top: 18px;
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+}
+
+/******** FIM DA SIDEBAR ************/
+
+
+/************* PAGINA-02 ************/
+
+.home2{
+	width: 80%;
+	height: 100vh;
+	float: right;
+}
+
+.sidebar2{
+	padding: 30px 2%;
+}
+
+.setas{
+	width: 150px;
+	height: 40px;
+	float: left;
+	background-color: #ccc;
+	border-radius: 10px;
+}
+
+.setas img{
+	margin: 0 20px;
+	position: relative;
+	top: 5px;
+	cursor: pointer;
+}
+
+.box1{
+	width: calc(87% - 7px);
+	height: 40px;
+	float: right;
+	background-color: #ccc;
+	border-radius: 10px;
+}
+
+.box1 span{
+	text-transform: uppercase;
+	font-size: 25px;
+	position: relative;
+	top: 5px;
+	padding-left: 8px;
+}
+
+.quadro{
+	width: 100%;
+	height: 90vh;
+	padding: 50px 0;
+}
+
+.quadro .container{
+	max-width: 1000px;
+	text-align: center;
+}
+
+.buscar input{
+	width: 85%;
+	height: 40px;
+	padding-left: 10px;
+	border-radius: 10px;
+	border: 1px solid #00A181;
+}
+
+.buscar button{
+	width: 10%;
+	height: 40px;
+	border-radius: 10px;
+	border: 1px solid #00A181;
+	cursor: pointer;
+}
+
+.quadro h2{
+	width: 40%;
+	height: 40px;
+	font-size: 25px;
+	font-weight: normal;
+	padding-top: 5px;
+	margin: 0 auto;
+	margin-top: 50px;
+	background-color: #ccc;
+	border-radius: 10px;
+}
+
+.tabela{
+	width: 93%;
+	float: left;
+	margin-left: 20px;
+}
+
+.tabela table{
+	margin-top: 50px;
+	width: 100%;
+}
+
+.tabela table tr:nth-of-type(1){
+	color: white;
+	background-color: black;
+}
+
+.tabela table tr:nth-of-type(2n+2){
+	background-color: rgb(230, 230, 230);
+}
+
+.tabela table tr:nth-of-type(2n+3){
+	background-color: #ccc;
+}
+
+.tabela table td{
+	padding: 10px 0;
+}
+
+.setas2{
+	float: right;
+	position: relative;
+	top: 50px;
+	background-color: #ccc;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+}
+
+.setas2 img:nth-of-type(1){
+	display: block;
+	background-color: green;
+	border-bottom: 1px solid green;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.setas2 img:nth-of-type(2){
+	display: block;
+	margin-top: 292px;
+	background-color: green;
+	border-bottom: 1px solid green;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.quadro p{
+	float: right;
+	width: 40%;
+	height: 40px;
+	font-size: 25px;
+	font-weight: normal;
+	padding-top: 5px;
+	margin-top: 40px;
+	margin-right: 80px;
+	background-color: #ccc;
+	border-radius: 10px;
+}
+
+.home2 .doc img{
+	width: 48px;
+	height: 48px;
+	margin-top: 35px;
+	cursor: pointer;
+	margin-right: 390px;
+}
+
+/************** pagina-02 ****************/
+
+
+/************** PAGINA-03 ***************/
+
+section.home3 .container{
+	padding: 30px 0;
+	max-width: 1000px;
+}
+
+section.home3 .tabela{
+	width: 94%;
+	float: left;
+	text-align: center;
+}
+
+section.home3 .setas2{
+	float: right;
+	position: relative;
+	top: 50px;
+	left: 6px;
+}
+
+section.home3 .setas2 img:nth-of-type(1){
+	display: block;
+}
+
+section.home3 .setas2 img:nth-of-type(2){
+	display: block;
+	margin-top: 393px;
+}
+
+section.home3 .tabela img{
+	width: 48px;
+	height: 48px;
+	margin-top: 30px;
+	margin-left: 500px;
+	cursor: pointer;
+}
+
+section.home3 h2{
+	width: 40%;
+	height: 40px;
+	font-size: 25px;
+	font-weight: normal;
+	padding-top: 5px;
+	margin: 0 auto;
+	margin-top: 80px;
+	background-color: #ccc;
+	border-radius: 10px;
+	text-align: center;
+}
+
+/************ Fim da pagina 03 *************/
+
+
+/************ PAGINA-04 ****************/
+
+section.home4 .container{
+	max-width: 1000px;
+	padding: 30px 0;
+}
+
+section.home4 .tabela{
+	text-align: center;
+	position: relative;
+	top: -30px;
+}
+
+.home4 .tabela table tr td{
+	padding: 15px 0;
+}
+
+.home4 .tabela table tr:nth-of-type(1){
+	background-color: #ccc;
+	color: black;
+}
+
+.home4 h2{
+	width: 93%;
+	height: 60px;
+	font-size: 25px;
+	font-weight: normal;
+	padding-top: 15px;
+	margin-left: 20px;
+	margin-top: 90px;
+	background-color: #ccc;
+	border-radius: 10px;
+	text-align: center;
+}
+
+section.home4 .setas2{
+	float: right;
+	position: relative;
+	top: 20px;
+	left: 6px;
+}
+
+section.home4 .setas2 img:nth-of-type(1){
+	display: block;
+}
+
+section.home4 .setas2 img:nth-of-type(2){
+	display: block;
+	margin-top: 360px;
+}
+
+section.home4 .tabela img{
+	width: 48px;
+	height: 48px;
+	margin-top: 30px;
+	margin-left: 500px;
+	cursor: pointer;
+}
+
+/*********** FIM DA PAGINA 4 **************/
+
